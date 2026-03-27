@@ -1,0 +1,25 @@
+{
+  "id": "player_henry_like",
+  "name": "Player",
+  "origin": "Bohemia",
+  "current_location": "tavern_main",
+  "status": {
+    "health": "stable",
+    "energy": 100,
+    "hunger": 0
+  },
+  "skills": {
+    "speech": 1,
+    "scholarship": 1,
+    "observation": 1,
+    "presence": 1
+  },
+  "inventory": [],
+  "quest_log": {
+    "active": [],
+    "completed": []
+  },
+  "relationship_state": {
+    "npc_innkeeper_rattay": 0
+  }
+}

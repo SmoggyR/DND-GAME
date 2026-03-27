@@ -1,0 +1,16 @@
+{
+  "chapter": "prologue",
+  "time_of_day": "morning",
+  "day": 1,
+  "weather": "clear",
+  "regional_tension": 0,
+  "flags": {
+    "heard_bandit_rumor": false,
+    "innkeeper_intro_done": false,
+    "curfew_active": false
+  },
+  "counters": {
+    "rumors_unlocked": 0,
+    "choices_logged": 0
+  }
+}

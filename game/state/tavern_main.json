@@ -1,0 +1,37 @@
+{
+    "id":  "tavern_main",
+    "name":  "The Main Tavern",
+    "settlement":  "Rattay",
+    "time_context":  {
+                         "open_from":  "06:00",
+                         "open_until":  "23:00"
+                     },
+    "scene":  {
+                  "crowd_level":  "moderate",
+                  "mood":  "hushed",
+                  "notable_details":  [
+
+                                      ]
+              },
+    "npcs_present":  [
+                         "npc_innkeeper_rattay"
+                     ],
+    "interactables":  [
+                          "bar_counter",
+                          "hearth",
+                          "notice_board"
+                      ],
+    "connected_locations":  [
+
+                            ],
+    "allowed_action_families":  [
+                                    "speak",
+                                    "ask",
+                                    "observe",
+                                    "flirt",
+                                    "threaten",
+                                    "accuse",
+                                    "leave",
+                                    "self_action"
+                                ]
+}

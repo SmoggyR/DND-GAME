@@ -1,0 +1,37 @@
+{
+    "id":  "npc_innkeeper_rattay",
+    "name":  "Innkeeper",
+    "title":  "Tavern Host",
+    "location_id":  "tavern_main",
+    "persona":  {
+                    "temperament":  "pragmatic",
+                    "demeanor":  "guarded",
+                    "speech_style":  "plainspoken"
+                },
+    "relationship_to_player":  {
+                                   "status":  "neutral_acquaintance",
+                                   "bond":  20,
+                                   "trust":  30,
+                                   "resentment":  0,
+                                   "fear":  0
+                               },
+    "conversation_rules":  [
+                               "Weary and economical with words",
+                               "Will not discuss the miller unless trust > 50",
+                               "Greet Henry as a regular customer, not a friend"
+                           ],
+    "status":  "alive",
+    "speakable":  true,
+    "relationships":  {
+                          "player":  {
+                                         "standing":  0,
+                                         "trust":  0,
+                                         "last_interaction":  null
+                                     }
+                      },
+    "flags":  {
+                  "met_player":  false,
+                  "owes_favor":  false
+              }
+}
+
